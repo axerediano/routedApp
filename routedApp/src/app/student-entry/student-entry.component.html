@@ -1,0 +1,36 @@
+<h3>STUDENT ENTRY FORM</h3>
+
+<div class="container">
+  <form (ngSubmit)="onSubmit(nameForm)" #nameForm="ngForm">
+    <div>
+      <div>
+        <label>Student Number: </label>
+        <input type="text" id="num" name="num" ngModel><br>
+      </div>
+
+      <div>
+        <label>First Name: </label>
+        <input type="text" id="fName" name="fName" ngModel><br>
+      </div>
+
+      <div>
+        <label>Last Name: </label>
+        <input type="text" id="lName" name="lName" ngModel><br>
+      </div>
+
+      <div>
+        <label>Program: </label>
+        <input type="text" id="prog" name="prog" ngModel><br>
+      </div>
+
+      <div>
+        <label>Year: </label>
+        <input type="text" id="yr" name="yr" ngModel><br><br>
+      </div>
+
+      <div>
+        <button>Submit</button>
+      </div>
+    </div>
+  </form>
+</div>
